@@ -7,4 +7,7 @@ target 'GalleryDemo' do
 
   # Pods for GalleryDemo
 
+  pod 'Alamofire'
+  pod 'JGProgressHUD'
+  pod 'SDWebImage'
 end
