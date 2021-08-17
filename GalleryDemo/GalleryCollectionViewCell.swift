@@ -9,4 +9,5 @@ import UIKit
 
 class GalleryCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var galleryImgView: UIImageView!
+    @IBOutlet weak var indicator: UIActivityIndicatorView!
 }

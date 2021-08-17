@@ -10,4 +10,5 @@ target 'GalleryDemo' do
   pod 'Alamofire'
   pod 'JGProgressHUD'
   pod 'SDWebImage'
+  pod 'DTPhotoViewerController'
 end

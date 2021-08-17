@@ -35,21 +35,28 @@
                                             <rect key="frame" x="0.0" y="0.0" width="153" height="149"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tbc-SX-zEd">
+                                                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="V1c-yE-ZoB">
+                                                    <rect key="frame" x="66.5" y="64.5" width="20" height="20"/>
+                                                    <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </activityIndicatorView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tbc-SX-zEd">
                                                     <rect key="frame" x="0.0" y="0.0" width="153" height="149"/>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="Tbc-SX-zEd" firstAttribute="top" secondItem="wNP-o4-UjO" secondAttribute="top" id="Fqc-at-FQn"/>
+                                                <constraint firstItem="V1c-yE-ZoB" firstAttribute="centerY" secondItem="wNP-o4-UjO" secondAttribute="centerY" id="RQY-U7-0gl"/>
+                                                <constraint firstItem="V1c-yE-ZoB" firstAttribute="centerX" secondItem="wNP-o4-UjO" secondAttribute="centerX" id="ekH-xa-LkE"/>
                                                 <constraint firstAttribute="trailing" secondItem="Tbc-SX-zEd" secondAttribute="trailing" id="iXd-Lq-8i2"/>
                                                 <constraint firstAttribute="bottom" secondItem="Tbc-SX-zEd" secondAttribute="bottom" id="pzD-cC-mpf"/>
                                                 <constraint firstItem="Tbc-SX-zEd" firstAttribute="leading" secondItem="wNP-o4-UjO" secondAttribute="leading" id="yqp-RO-VTF"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <color key="backgroundColor" red="0.0031666669529999999" green="0.39549279209999999" blue="0.45596241949999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <size key="customSize" width="153" height="149"/>
                                         <connections>
                                             <outlet property="galleryImgView" destination="Tbc-SX-zEd" id="gpo-H3-xPs"/>
+                                            <outlet property="indicator" destination="V1c-yE-ZoB" id="hgu-A6-nPw"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>

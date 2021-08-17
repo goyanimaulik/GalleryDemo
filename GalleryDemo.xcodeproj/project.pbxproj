@@ -16,6 +16,8 @@
 		4D51E96626CBC09A00EDC05C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D51E96526CBC09A00EDC05C /* Assets.xcassets */; };
 		4D51E96926CBC09A00EDC05C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D51E96726CBC09A00EDC05C /* LaunchScreen.storyboard */; };
 		4D51EA2A26CBD40800EDC05C /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D51EA2926CBD40800EDC05C /* WebServices.swift */; };
+		88836A4526CC1FBF00836E3F /* BDFSimplePhotoViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88836A4426CC1FBF00836E3F /* BDFSimplePhotoViewerController.swift */; };
+		88836A4826CC20D500836E3F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88836A4726CC20D500836E3F /* UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		4D51E96826CBC09A00EDC05C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D51E96A26CBC09A00EDC05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D51EA2926CBD40800EDC05C /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		88836A4426CC1FBF00836E3F /* BDFSimplePhotoViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDFSimplePhotoViewerController.swift; sourceTree = "<group>"; };
+		88836A4726CC20D500836E3F /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		AA1187F4FC4490CD304064EB /* Pods_GalleryDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GalleryDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E0FC92EF99244F3C6252E0 /* Pods-GalleryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GalleryDemo.debug.xcconfig"; path = "Target Support Files/Pods-GalleryDemo/Pods-GalleryDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +84,8 @@
 				4D51EA2926CBD40800EDC05C /* WebServices.swift */,
 				4D10DD8926CBF4F30087B088 /* GalleryModel.swift */,
 				4D10DD8C26CBF5BD0087B088 /* GalleryCollectionViewCell.swift */,
+				88836A4426CC1FBF00836E3F /* BDFSimplePhotoViewerController.swift */,
+				88836A4726CC20D500836E3F /* UIImage.swift */,
 				4D51E96226CBC09700EDC05C /* Main.storyboard */,
 				4D51E96526CBC09A00EDC05C /* Assets.xcassets */,
 				4D51E96726CBC09A00EDC05C /* LaunchScreen.storyboard */,
@@ -216,6 +222,8 @@
 				4D51E96126CBC09700EDC05C /* ViewController.swift in Sources */,
 				4D10DD8A26CBF4F30087B088 /* GalleryModel.swift in Sources */,
 				4D51E95D26CBC09700EDC05C /* AppDelegate.swift in Sources */,
+				88836A4526CC1FBF00836E3F /* BDFSimplePhotoViewerController.swift in Sources */,
+				88836A4826CC20D500836E3F /* UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
